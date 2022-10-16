@@ -9,7 +9,7 @@ import (
 	"shopping-cart/common/orm"
 	"shopping-cart/pkg/middleware"
 	"github.com/gin-gonic/gin"
-	"github.com/heroku/x/hmetrics/onload"
+	_ "github.com/heroku/x/hmetrics/onload"
 )
 
 func main() {
