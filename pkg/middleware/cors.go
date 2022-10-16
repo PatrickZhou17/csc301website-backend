@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// Cors
+// to allows resources such as web fonts to be loaded from domains other than the origin parent domain
 func Cors() gin.HandlerFunc {
 	config := cors.DefaultConfig()
 	config.AllowCredentials = true
