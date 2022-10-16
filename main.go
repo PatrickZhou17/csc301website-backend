@@ -22,8 +22,7 @@ func main() {
 	router.Use(gin.Logger())
 	dbCfg := config.DatabaseConfig{
 		ConnectUrls: config.DBConnUrls{
-			Master: "ttxcvfxjqklhgoxj:sk1yqvmb587d921y@tcp(r98du2bxwqkq3shg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306)/p9d3en73yqq5zaaz?charset=utf8mb4&parseTime=True&loc=Local",
-			//Master: "root:123456@tcp(127.0.0.1:3306)/demo?charset=utf8mb4&parseTime=True&loc=Local",
+			Master: "uu23w23lguh6ef2q:mfoybymlxryqtpmw@tcp(r98du2bxwqkq3shg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306)/	tz4sjutxf9pddu6t?charset=utf8mb4&parseTime=True&loc=Local",
 		},
 		MaxIdle:  10,
 		MaxOpen:  100,
