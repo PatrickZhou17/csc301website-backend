@@ -3,15 +3,13 @@ package main
 import (
 	"log"
 	"os"
-
 	"shopping-cart/api/rest/probe"
 	"shopping-cart/api/rest/product"
 	"shopping-cart/common/config"
 	"shopping-cart/common/orm"
 	"shopping-cart/pkg/middleware"
-
 	"github.com/gin-gonic/gin"
-	_ "github.com/heroku/x/hmetrics/onload"
+	"github.com/heroku/x/hmetrics/onload"
 )
 
 func main() {
